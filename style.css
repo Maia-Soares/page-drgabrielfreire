@@ -458,7 +458,7 @@
         .section-subtitle {
             font-size: 1.05rem;
             color: var(--text-mid);
-            max-width: 600px;
+            max-width: 750px;
             margin: 0 auto;
             line-height: 1.7;
         }
@@ -574,6 +574,14 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-bottom: 4rem;
+        }
+
+        .info-cards-unique {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-bottom: 4rem;
+            justify-items: center;
         }
 
         .info-card {
