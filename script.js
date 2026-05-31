@@ -80,7 +80,7 @@
                 if (entry.isIntersecting) {
                     animateCounter('counter1', 6, '+', 2000);
                     animateCounter('counter2', 500, '+', 2500);
-                    animateCounter('counter3', 4.9, '', 2000);
+                    animateCounter('counter3', 5, '', 2000);
                     heroObserver.unobserve(entry.target);
                 }
             });
